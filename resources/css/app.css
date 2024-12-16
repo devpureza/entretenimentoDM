@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --primary-50: 240 249 255;
+    --primary-100: 224 242 254;
+    --primary-200: 186 230 253;
+    --primary-300: 125 211 252;
+    --primary-400: 56 189 248;
+    --primary-500: 14 165 233;
+    --primary-600: 2 132 199;
+    --primary-700: 3 105 161;
+    --primary-800: 7 89 133;
+    --primary-900: 12 74 110;
+}
+
+/* Modo escuro */
+.dark {
+    --primary-50: 249 250 251;
+    --primary-100: 243 244 246;
+    --primary-200: 229 231 235;
+    --primary-300: 209 213 219;
+    --primary-400: 156 163 175;
+    --primary-500: 107 114 128;
+    --primary-600: 75 85 99;
+    --primary-700: 55 65 81;
+    --primary-800: 31 41 55;
+    --primary-900: 17 24 39;
+}
+
+/* Estilos para Imagens */
+img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas */
+    margin-bottom: 1rem; /* Espaço abaixo */
+}
+
+/* Estilos para Citações */
+blockquote {
+    font-style: italic;
+    border-left: 4px solid #ccc;
+    margin: 1.5rem 0;
+    padding: 0.5rem 1rem;
+    color: #555;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+/* Estilos para Títulos (H2 e H3) */
+h2 {
+    font-size: 1.875rem; /* 30px */
+    font-weight: 700; /* Negrito */
+    color: #1a202c; /* Cinza escuro */
+    margin-top: 1.5rem; /* Espaço acima */
+    margin-bottom: 1rem; /* Espaço abaixo */
+}
+
+h3 {
+    font-size: 1.5rem; /* 24px */
+    font-weight: 600; /* Seminegrito */
+    color: #2d3748; /* Cinza médio */
+    margin-top: 1.25rem; /* Espaço acima */
+    margin-bottom: 0.75rem; /* Espaço abaixo */
+}
+
+/* Espaçamento entre Parágrafos */
+p + p {
+    margin-top: 1.5rem; /* Adiciona espaço entre parágrafos consecutivos */
+}
+
+
